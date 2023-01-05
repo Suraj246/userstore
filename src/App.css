@@ -1,0 +1,38 @@
+.App {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+form {
+  display: flex;
+  gap: 1vw;
+  align-items: center;
+  width: 50vw;
+}
+
+#name {
+  line-height: 1.8rem;
+  width: 100%;
+  font-size: 1rem;
+  padding-left: 1rem;
+  outline: none;
+
+}
+
+#address {
+  line-height: 1.8rem;
+  width: 100%;
+  font-size: 1rem;
+  padding-left: 1rem;
+  outline: none;
+}
+
+#submit {
+  font-size: 1rem;
+  padding: .5rem 1.8rem;
+  border: none;
+  background-color: blue;
+  color: #fff;
+  cursor: pointer;
+}
